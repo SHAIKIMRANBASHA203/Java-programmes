@@ -1,0 +1,14 @@
+public static void main(String[] args) {
+int a= 9;
+int b=0;
+int c=8;
+if(a==b && b==c && c==a) {
+	System.out.println("it is a equlateral");
+}
+else if(a==b || b==c || c==a) {
+	System.out.println(" it is a isolaces");
+}
+else {
+	System.out.println("it is a scalene");
+}
+	}
